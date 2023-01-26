@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Carrito de Compras 2.0</h1>
+        <div id="alerts"></div>
+     <div class="productcont">
+             <div class="producto">
+                 <h3 class="productoNombre">Producto 1</h3>
+                 <p>Lorem ipsum dolor sit amet </p>
+                 <p class="price">$5000</p>
+                 <button class="addtocart">Agregar</button>
+             </div>
+             <div class="producto">
+                 <h3 class="productoNombre">Producto 2</h3>
+                 <p>Lorem ipsum dolor sit amet </p>
+                 <p class="price">$8000</p>
+                 <button class="addtocart">Agregar</button>
+             </div>
+             <div class="producto">
+                 <h3 class="productoNombre">Producto 3</h3>
+                 <p>Lorem ipsum dolor sit amet </p>
+                 <p class="price">$10990</p>
+                 <button class="addtocart">Agregar</button>
+             </div>
+             </div>
+             <div class="cart-container">
+               <h2>Carrito</h2>
+               <table>
+                 <thead>
+                   <tr>
+                   <th><strong>Producto</strong></th>
+                   <th><strong>Precio</strong></th>
+                 </tr>
+                 </thead>
+                 <tbody id="tablaCarito">
+                 </tbody>
+               </table>
+               <hr>
+               <table id="carttotals">
+                 <tr>
+                   <td><strong>Cantidad</strong></td>
+                   <td><strong>Total</strong></td>
+                 </tr>
+                 <tr>
+                   <td>x <span id="itemsquantity">0</span></td>
+                  
+                   <td>$<span id="total">0</span></td>
+                 </tr></table>
+     
+                 
+               <div class="cart-buttons">  
+                 <button id="vaciar">Vaciar</button>
+                 <button id="comprar">Comprar</button>
+               </div>
+             </div>
+     </div>
+
+     <script src="app.js"></script>
+</body>
+</html>
